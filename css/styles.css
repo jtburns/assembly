@@ -1,0 +1,152 @@
+body
+{
+	background: url('../pictures/body-background-texture.png') repeat;
+}
+
+header
+{
+	height: 80px;
+	background: url('../pictures/header-background-tile.png') repeat-x;
+}
+
+.wrapper
+{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
+header h1
+{
+	position: absolute;
+	left: 8px;
+	bottom: 10px;
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	color: red;
+	text-shadow: 0px 0px 10px #000;
+}
+
+#words
+{
+	font-family: 'Just Me Again Down Here', cursive;	
+	font-size: 34px;
+	color: white;
+}
+
+#wordbox
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	background: url('../pictures/body-background-texture.png') repeat;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+#wordbox input {vertical-align:top;}
+#wordbox input[type="submit"]::-moz-focus-inner {border:0;}
+#wordbox input[type="submit"]:focus {background:#333;}
+
+#wordinput
+{
+	width:180px; 
+	padding:4px;  
+	background:#fff; 
+	border: solid 1px #494949;
+	border-top-left-radius: 10px;
+	font-size: 14px;
+	margin: 0px;
+}
+
+#gobutton
+{
+	width:35px; 
+	padding:4px; 
+	border: solid 1px #494949;
+	color:#fff; 
+	text-shadow:0px -1px 2px rgba(0,0,0,.7);
+	cursor:pointer;
+	border-top-right-radius: 10px;	
+	margin: 0px;
+	font-size: 14px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.6);
+	background: #ff0000;
+	background: -moz-linear-gradient(#ff0000, #454545);
+	background: -webkit-linear-gradient(#ff0000, #454545);
+	background: -o-linear-gradient(#ff0000, #454545);
+	background: -ms-linear-gradient(#ff0000, #454545);
+	background: linear-gradient(#ff0000, #454545);/**/
+}
+
+body section
+{ 
+	position: relative;
+	background: #fff;
+	font-family: 'Bangers', cursive;
+	border-radius: 10px;
+	border: solid 1px #bcbbbb;
+	outline: none;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+}
+
+body .wrapper
+{
+	margin-bottom: 20px;
+	overflow: hidden; /*to stretch wrapper across floats*/
+}
+
+.sectiontitle
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	font-size: 20px;
+	padding: 6px;
+	background: url('../pictures/header-background-tile.png') repeat-x;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+#assemblyGraph
+{
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 0px;
+	width: 958px;
+	height: 350px;
+	clear: both;
+}
+
+#properties
+{
+	width: 60%;
+	height: 356px;
+	float: left;
+}
+
+#chordDiagram
+{
+	width: 37%;
+	height: 356px;
+	padding-right: 0px;
+	margin-right: 0px;
+	float: right;
+}
+
+#circleGraph
+{
+	width: 958px;
+	height: 100px;
+	clear: both;
+}
